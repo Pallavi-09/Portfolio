@@ -1,1 +1,26 @@
-<p>contact works!</p>
+<div *ngIf="sendEmail">Email Send!</div>
+<form #contactForm="ngForm" (ngSubmit)="contactFormSubmit(contactForm.value)">
+
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput name="firstname" #name="ngModel" ngModel required>
+        <mat-error class="text-danger" *ngIf="name.touched && name.invalid">
+            Name is required
+        </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input type="email" matInput email #email="ngModel" name="email" ngModel required>
+        <mat-error class="text-danger" *ngIf="email.invalid && email.touched">
+            Please enter a valid Input.
+        </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Message</mat-label>
+        <textarea matInput #message="ngModel" name="message" ngModel required></textarea>
+    </mat-form-field>
+    <div *ngIf="message.invalid && message.touched">
+        Message is required
+    </div>
+    <button mat-raised-button color="success" [disabled]="!contactForm.form.valid">Submit</button>
+</form>

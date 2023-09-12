@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NO_ERRORS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageContentComponent } from './page-content/page-content.component';
 import { ContactComponent } from './page-content/contact/contact.component';
@@ -27,7 +26,6 @@ import { MatDialogModule } from '@angular/material/dialog';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     NavigationComponent,
     PageContentComponent,
     ContactComponent,
@@ -51,6 +49,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }

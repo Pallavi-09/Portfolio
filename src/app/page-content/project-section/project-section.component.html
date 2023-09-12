@@ -1,1 +1,4 @@
-<p>project-section works!</p>
+<div class="projectPanel" *ngFor="let data of projectAll" (click)="openDialog(data)">
+    <p>{{data.projectName}}</p>
+    <p>{{data.description}}</p>
+</div>

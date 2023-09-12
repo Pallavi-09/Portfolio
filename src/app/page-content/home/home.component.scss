@@ -1,0 +1,27 @@
+.homeSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.homeSection-title{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.homeSection-subtitle{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.homeSection-content{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 10;
+}

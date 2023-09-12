@@ -1,0 +1,30 @@
+ol {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigationSection {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.navigationSection div:hover{
+    cursor: pointer;
+}
+
+.navigationPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 45px;
+}

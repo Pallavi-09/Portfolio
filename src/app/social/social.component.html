@@ -1,1 +1,4 @@
-<p>social works!</p>
+<div class="socialContainer" *ngFor="let social of socialData">
+    <a (click)='goToLink(social.link)' class="socialLink">
+    <img class="socialBack" src={{social.icon}} class="socialIcon" /></a>
+</div>

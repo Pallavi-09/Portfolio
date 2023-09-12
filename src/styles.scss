@@ -1,4 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 40px 30px;
+    background: #000101;
+    color: #cfd1d3;
+}
 html, body { height: 100%; }
+
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-mdc-raised-button[disabled][disabled] {
+    background-color: #b9b9b9;
+    color: #7e7b7b;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: #1278db!important;
+    color: #fff;
+}
+
+
+.text-danger {
+    color: red;
+}
+
+.homeSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.portfolioSection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.contactSection form {
+    display: flex;
+    flex-direction: column;
+}
