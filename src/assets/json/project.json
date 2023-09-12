@@ -1,0 +1,24 @@
+{
+    "projectDetails": [
+        {
+            "id":"1",
+            "projectName": "uCertify",
+            "description": "E-learning"
+        },
+        {
+            "id":"2",
+            "projectName": "Infogain",
+            "description": "Client Gaana"
+        },
+        {
+            "id":"3",
+            "projectName": "TechMahindra",
+            "description": "Client Morgan Stanley"
+        },
+        {
+            "id":"4",
+            "projectName": "TechMahindra",
+            "description": "Client Morgan Stanley"
+        }
+    ]
+}

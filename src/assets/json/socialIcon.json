@@ -1,0 +1,19 @@
+{
+    "icons": [
+        {
+            "id":"1",
+            "icon": "/assets/images/github.svg",
+            "link": "https://github.com/Pallavi-09"
+        },
+        {
+            "id":"2",
+            "icon": "/assets/images/linkedin.svg",
+            "link": "https://www.linkedin.com/in/pallavisinghup/"
+        },
+        {
+            "id":"3",
+            "icon": "/assets/images/mail.png",
+            "link": "mailto:someone@example.com"
+        }
+    ]
+}
