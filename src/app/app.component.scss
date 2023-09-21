@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     z-index: 1;
-    animation: fadeMeIn 0.2s 2s ease-in both;
+    animation: fadeMeIn 0.2s 1.2s ease-in both;
 }
 
 .pageContentPanel {
@@ -31,7 +31,7 @@
         width: 0%;
         float: left;
         background: #1b2537;
-        animation: halfBg 1s 0.5s ease-in both;
+        animation: halfBg 1s 0.7s ease-in both;
     }
     &-right{
         width: 0%;
